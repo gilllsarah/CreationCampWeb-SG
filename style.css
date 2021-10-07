@@ -1,0 +1,116 @@
+
+#commentInput {
+    color: #6E2FEC;
+}
+a {
+    color: #fff;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: url(https://i.ibb.co/njWk2H5/tumblr-e21f07df25550013d29e27e45fe3c2af-6b2de283-500.gif);
+}
+::-webkit-scrollbar-track {
+    background: #000;
+}
+.logo::before {
+    margin-right: 0px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    content: "";
+    background: url(https://i.ibb.co/Dp2QpPg/logo-removebg-preview-1.png) no-repeat 0 0;
+    background-size: 24px 24px;
+}
+.logo::after {
+    margin-right: 0px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    content: "";
+    background: url(https://i.ibb.co/Dp2QpPg/logo-removebg-preview-1.png) no-repeat 0 0;
+    background-size: 24px 24px;
+}
+div#hSub {
+    color: #000;
+}
+p {
+    color: #fff;
+}
+div#hSub a {
+    letter-spacing: 2px;
+}
+#header a:not(.logo) {
+    margin-left: 10px;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+    font-family: Courier New;
+}
+div#hSub a {
+    font-family: courier;
+}
+input, button {
+    background: linear-gradient(to bottom, black 10% , black 30%, #6E2FEC 40%, black 75%, black 85%, black 100%);
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: "courier";
+}
+input, .logo, div#hSub a, button, #add.boxButton, #imgPreview img, #header a:not(.logo), #imgPreview {
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1149.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1149.png),auto!important;
+}
+#container {
+    background: url(https://media.giphy.com/media/4UzW8S83pWoKs/giphy.gif);
+    border: 5px double #fff;
+    border-color:  30 stretch;
+}
+body {
+    font-family: "Courier New";
+}
+.logo b span {
+  display: none;
+}
+.logo b:before {
+    vertical-align: left;
+    font-size: 20px;
+    content: "";
+}
+body {
+    background-image: url(https://media.giphy.com/media/26AHMBTzc1qJgFfDW/giphy.gif);
+}
+body {
+    text-align: center;
+}
+div {
+    color: #fff;
+}
+#commentInput {
+    border: 1px solid #DCDEF7;
+    background: linear-gradient(to bottom right, black 0%, black 25%,#6E2FEC 50%, #6E2FEC 75%, black 100%);
+}
+#header, #hSub {
+    background: #DCDEF7 ;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 14px;
+    text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color:  #6E2FEC;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #DCDEF7;
+  color:  #6E2FEC;
+}

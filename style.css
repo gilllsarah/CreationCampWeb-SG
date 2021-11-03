@@ -1,4 +1,3 @@
-
 #commentInput {
     color: #6E2FEC;
 }
@@ -52,7 +51,7 @@ div#hSub a {
     font-family: courier;
 }
 input, button {
-    background: linear-gradient(to bottom, black 10% , black 30%, #6E2FEC 40%, black 75%, black 85%, black 100%);
+    background: #6E2FEC;
     color: #fff;
     border: 1px solid #fff;
     font-family: "courier";
@@ -78,16 +77,14 @@ body {
 }
 body {
     background-image: url(https://media.giphy.com/media/26AHMBTzc1qJgFfDW/giphy.gif);
+    background-size: cover;
+    
 }
 body {
     text-align: center;
 }
 div {
     color: #fff;
-}
-#commentInput {
-    border: 1px solid #DCDEF7;
-    background: linear-gradient(to bottom right, black 0%, black 25%,#6E2FEC 50%, #6E2FEC 75%, black 100%);
 }
 #header, #hSub {
     background: #DCDEF7 ;
@@ -100,16 +97,14 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
-
 li a {
   display: block;
   color:  #6E2FEC;
   padding: 8px 16px;
-  text-decoration: none;
+  text-decoration: none; 
 }
-
 li a:hover {
   background-color: #DCDEF7;
   color:  #6E2FEC;
